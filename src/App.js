@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Flashcard from './components/Flashcards';
+import flashcards from './data/flashcards.json'; // adjust path if inside /data
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Study Flashcards</h1>
+      {flashcards.map((card, index) => (
+        <Flashcard key={index} question={card.question} answer={card.answer} />
+      ))}
     </div>
   );
 }
