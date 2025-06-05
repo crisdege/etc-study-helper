@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import FlashcardsPage from './pages/FlashcardsPage';
 import QuizzesPage from './pages/QuizzesPage';
+import Flashcard from './components/Flashcards';
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
           <Route path="/quizzes" element={<QuizzesPage />} />
         </Routes>
       </div>
+      <Flashcard
+        question={'What is the 9-1-1 call answer process?'}
+        answer={'Orange county 911'}
+      />
     </Router>
   );
 }
