@@ -44,7 +44,7 @@ import Flashcard from './components/Flashcards';
 function HomePage() {
   return (
     <div>
-      <h1 style={{ textAlign: 'center' }}>Things to remember</h1>
+      <h1 style={{ textAlign: 'center' }}>Might want to remember</h1>
 
       <div
         style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
@@ -68,14 +68,17 @@ function App() {
       <div className="App">
         <nav style={styles.nav}>
           <Link to="/" style={styles.navLink}>
-            Home
+            Remember
           </Link>
+          |
           <Link to="/flashcards" style={styles.navLink}>
-            Flashcards
+            Nature Codes
           </Link>
+          |
           <Link to="/quizzes" style={styles.navLink}>
             Quizzes
           </Link>
+          |
           <Link to="/scenarios" style={styles.navLink}>
             Scenarios
           </Link>

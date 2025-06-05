@@ -17,7 +17,7 @@ function QuizzesPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [score, setScore] = useState(0);
 
-  const categories = ['ALL', 'EMD', 'EFD', 'EPD'];
+  const categories = ['ALL', 'EMD', 'EFD', 'EPD', 'OTHER'];
 
   useEffect(() => {
     const filtered =

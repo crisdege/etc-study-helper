@@ -3,7 +3,7 @@
     "question": "How many minutes do we try a land line that hanged up a 9-1-1 call?",
     "choices": ["3 minutes", "1 minute", "5 minutes", "2 minutes"],
     "answer": "3 minutes",
-    "category": "EMD"
+    "category": "OTHER"
   },
 
   {
@@ -295,5 +295,170 @@
     "question": "Vegetation / Wildland / Brush / Grass Fire (Use 67)",
     "answer": "OUTFIR",
     "category": "EFD"
+  },
+  {
+    "question": "Abduction (Kidnapping) / Custodial Abduction / Custody Issue / Hostage Situation",
+    "answer": "ABDUCT",
+    "category": "EPD"
+  },
+  {
+    "question": "Abuse / Abandonment / Neglect",
+    "answer": "ABUSE",
+    "category": "EPD"
+  },
+  {
+    "question": "Administrative (Lost or Found Property, Found Unexploded Ordinance)",
+    "answer": "ADMIN",
+    "category": "EPD"
+  },
+  {
+    "question": "Alarms (Police)",
+    "answer": "ALARLE",
+    "category": "EPD"
+  },
+  {
+    "question": "Animal",
+    "answer": "ANIM",
+    "category": "EPD"
+  },
+  {
+    "question": "Assault / Sexual Assault / Shooting / Stabbing",
+    "answer": "ASLT",
+    "category": "EPD"
+  },
+  {
+    "question": "Assist Other Agencies",
+    "answer": "LEASST",
+    "category": "EPD"
+  },
+  {
+    "question": "Bomb Found / Suspicious Package (Letter, Item) / Product Contamination",
+    "answer": "SUSPAC",
+    "category": "EPD"
+  },
+  {
+    "question": "Bomb Threat",
+    "answer": "BOMB",
+    "category": "EPD"
+  },
+  {
+    "question": "Burglary (Break-and-Enter / Home Invasion)",
+    "answer": "BUBE",
+    "category": "EPD"
+  },
+  {
+    "question": "Damage / Vandalism / Mischief",
+    "answer": "DAMA",
+    "category": "EPD"
+  },
+  {
+    "question": "Disturbance / Nuissance",
+    "answer": "DIST",
+    "category": "EPD"
+  },
+  {
+    "question": "Domestic Disturbance / Violence",
+    "answer": "DOME",
+    "category": "EPD"
+  },
+  {
+    "question": "Driving Under the Influence",
+    "answer": "DUI",
+    "category": "EPD"
+  },
+  {
+    "question": "Drugs",
+    "answer": "DRUGS",
+    "category": "EPD"
+  },
+  {
+    "question": "Fraud / Forgery",
+    "answer": "FRAUD",
+    "category": "EPD"
+  },
+  {
+    "question": "Harassment / Stalking / Threats",
+    "answer": "HARA",
+    "category": "EPD"
+  },
+  {
+    "question": "Indecency / Lewdness",
+    "answer": "INDEC",
+    "category": "EPD"
+  },
+  {
+    "question": "Mental Disorder (Behavioral Problems)",
+    "answer": "MENDIS",
+    "category": "EPD"
+  },
+  {
+    "question": "Miscellaneous",
+    "answer": "MISC",
+    "category": "EPD"
+  },
+  {
+    "question": "Missing / Runaway / Found Person",
+    "answer": "MISS",
+    "category": "EPD"
+  },
+  {
+    "question": "Officer Needs Assistance",
+    "answer": "OFFNA",
+    "category": "EPD"
+  },
+  {
+    "question": "Public Service (Lock-out / Lock-In, Peace, Welfare Check, Reckless Activity)",
+    "answer": "PUBLIC",
+    "category": "EPD"
+  },
+  {
+    "question": "Robbery / Carjacking",
+    "answer": "ROBBER",
+    "category": "EPD"
+  },
+  {
+    "question": "Suicidal Person / Attempted Suicide",
+    "answer": "SUIC",
+    "category": "EPD"
+  },
+  {
+    "question": "Suspicious / Wanted (Person, Circumstances, Vehicle)",
+    "answer": "SUSPIC",
+    "category": "EPD"
+  },
+  {
+    "question": "Theft (Larceny)",
+    "answer": "THEFT",
+    "category": "EPD"
+  },
+  {
+    "question": "Traffic Collision / Transportation Incident, Stuck Accelerator",
+    "answer": "MVCLE",
+    "category": "EPD"
+  },
+  {
+    "question": "Traffic Violation / Complaint / Hazard",
+    "answer": "TRFHAZ",
+    "category": "EPD"
+  },
+  {
+    "question": "Treaspassing / Unwanted",
+    "answer": "TRES",
+    "category": "EPD"
+  },
+  {
+    "question": "Unknown (3rd Party)",
+    "answer": "UNKNLE",
+    "category": "EPD"
+  },
+  {
+    "question": "Weapons / Firearms",
+    "answer": "WEAPON",
+    "category": "EPD"
+  },
+  {
+    "question": "Active Assailant (Shooter)",
+    "answer": "ACTIVE",
+    "category": "EPD"
   }
 ]

@@ -73,5 +73,85 @@
     "question": "My wife is having contractions, I think she is about to give birth.",
     "answer": "PREG",
     "category": "EMD"
+  },
+  {
+    "question": "I found my dad at home. He can't move on one side and is slurring his speech.",
+    "answer": "STROKE",
+    "category": "EMD"
+  },
+  {
+    "question": "I have an employee whose hand is trapped in a roller at the factory. We need EMS!",
+    "answer": "ENTRAP",
+    "category": "EFD"
+  },
+  {
+    "question": "My husband was cutting the grass, and a tree limb scratched his eyeball.",
+    "answer": "EYEP",
+    "category": "EMD"
+  },
+  {
+    "question": "My co-worker was wiring a new house here at the job site, he's been electrocuted!",
+    "answer": "ELEC",
+    "category": "EMD"
+  },
+  {
+    "question": "I just found this person outside. It's really hot and he's not making much sense. Maybe he's dehydrated.",
+    "answer": "HECO",
+    "category": "EMD"
+  },
+  {
+    "question": "I'm a lifeguard, my co-worker is doing CPR! We just found a kid in the bottom of the pool!",
+    "answer": "DROWN",
+    "category": "EMD"
+  },
+  {
+    "question": "My sugar is 306. I thing I need EMS.",
+    "answer": "DIAB",
+    "category": "EMD"
+  },
+  {
+    "question": "My heart feels like it's racing. I'm not sure what's going on.",
+    "answer": "HEPR",
+    "category": "EMD"
+  },
+  {
+    "question": "I've got a terrible headache.",
+    "answer": "HEAD",
+    "category": "EMD"
+  },
+  {
+    "question": "Someone is seizing inside the gym.",
+    "answer": "CONV",
+    "category": "EMD"
+  },
+  {
+    "question": "I just found my mom on the floor. She's awake and fine, I think she fell our of the chair.",
+    "answer": "FALLS",
+    "category": "EMD"
+  },
+  {
+    "question": "Help! Someone in the dining area is choking and can't breathe!",
+    "answer": "CHOK",
+    "category": "EMD"
+  },
+  {
+    "question": "My wife is having some thightness in her chest.",
+    "answer": "CHEST",
+    "category": "EMD"
+  },
+  {
+    "question": "My wife has a pinched nerve in her back. She can't move due to the pain.",
+    "answer": "BACK",
+    "category": "EMD"
+  },
+  {
+    "question": "My carbon monoxide alarm was going off. My whole family has a terrible headache.",
+    "answer": "CARBMO",
+    "category": "EMD"
+  },
+  {
+    "question": "My neighbor's dog just bit my child.",
+    "answer": "ANIB",
+    "category": "EMD"
   }
 ]
