@@ -1,0 +1,77 @@
+[
+  {
+    "question": "My mother is lying in bed complaining of terrible stomach pain. She's been ill for about 24 hours now.",
+    "answer": "ABDO",
+    "category": "EMD"
+  },
+  {
+    "question": "My carbon monoxide alarm is going off. My wife doesn't feel well.",
+    "answer": "CARBMO",
+    "category": "EMD"
+  },
+  {
+    "question": "I was outside in my garden and was bit by a copperhead.",
+    "answer": "ALLE",
+    "category": "EMD"
+  },
+  {
+    "question": "Hurry! My son was lighting a bonfire and poured gas on it, he's burned pretty!",
+    "answer": "BURN",
+    "category": "EMD"
+  },
+  {
+    "question": "My grandmother isn't responsive! I don't think she's breathing!",
+    "answer": "CARD",
+    "category": "EMD"
+  },
+  {
+    "question": "Hi, I have a patient here at UNC Urgent Care that needs to be transported to the hospital for stroke-like sypmtoms.",
+    "answer": "TIPC",
+    "category": "EMD"
+  },
+  {
+    "question": "I was driving and passed a guy laying in the ditch.",
+    "answer": "UNKN",
+    "category": "EMD"
+  },
+  {
+    "question": "My sister was playing on the monkey bars and dislocated her shoulder.",
+    "answer": "TRAU",
+    "category": "EMD"
+  },
+  {
+    "question": "There is a bad wreck here, I think someone was ejected.",
+    "answer": "MVCPI",
+    "category": "EMD"
+  },
+  {
+    "question": "There is a lady who passed out outside of the bar area.",
+    "answer": "UNCO",
+    "category": "EMD"
+  },
+  {
+    "question": "My wife was cutting a tomato and the knife slipped. She cut her hand pretty bad.",
+    "answer": "HEMO",
+    "category": "EMD"
+  },
+  {
+    "question": "My dad needs to go to the hospital, he isn't feeling well. I think he may have the flu.",
+    "answer": "SICK",
+    "category": "EMD"
+  },
+  {
+    "question": "This guy is dead in the woods. I think he shot himself.",
+    "answer": "STABSI",
+    "category": "EMD"
+  },
+  {
+    "question": "I need EMS, I found my girlfriend passed out, and there is a needle beside her. I think she OD'd.",
+    "answer": "OVER",
+    "category": "EMD"
+  },
+  {
+    "question": "My wife is having contractions, I think she is about to give birth.",
+    "answer": "PREG",
+    "category": "EMD"
+  }
+]
