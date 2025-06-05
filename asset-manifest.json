@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/etc-study-helper/static/css/main.9ca0ea68.css",
-    "main.js": "/etc-study-helper/static/js/main.5f497b75.js",
+    "main.js": "/etc-study-helper/static/js/main.76a0247f.js",
     "index.html": "/etc-study-helper/index.html",
     "main.9ca0ea68.css.map": "/etc-study-helper/static/css/main.9ca0ea68.css.map",
-    "main.5f497b75.js.map": "/etc-study-helper/static/js/main.5f497b75.js.map"
+    "main.76a0247f.js.map": "/etc-study-helper/static/js/main.76a0247f.js.map"
   },
   "entrypoints": [
     "static/css/main.9ca0ea68.css",
-    "static/js/main.5f497b75.js"
+    "static/js/main.76a0247f.js"
   ]
 }
