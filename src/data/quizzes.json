@@ -380,7 +380,7 @@
     "category": "EFD"
   },
   {
-    "question": "Outside Tank Fire (Use 67)",
+    "question": "Outside Tank Fire",
     "answer": "OUTFIR",
     "category": "EFD"
   },
@@ -390,7 +390,7 @@
     "category": "EFD"
   },
   {
-    "question": "Vegetation / Wildland / Brush / Grass Fire (Use 67)",
+    "question": "Vegetation / Wildland / Brush / Grass Fire",
     "answer": "OUTFIR",
     "category": "EFD"
   },

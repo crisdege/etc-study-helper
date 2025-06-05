@@ -20,12 +20,15 @@ function QuizzesPage() {
   const categories = ['ALL', 'EMD', 'EFD', 'EPD', 'OTHER'];
 
   useEffect(() => {
-    const filtered =
+    let filtered =
       selectedCategory === 'ALL'
         ? quizData
         : quizData.filter((q) => q.category === selectedCategory);
+    const shuffled = shuffleArray(filtered);
+    const limited =
+      selectedCategory === 'ALL' ? shuffled.slice(0, 25) : shuffled;
 
-    setQuestions(shuffleArray(filtered));
+    setQuestions(limited);
     setUserAnswers({});
     setIsSubmitted(false);
     setScore(0);

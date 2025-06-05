@@ -39,6 +39,7 @@ import QuizzesPage from './pages/QuizzesPage';
 import ScenariosPage from './pages/ScenariosPage';
 import rememberData from './data/remember.json';
 import Flashcard from './components/Flashcards';
+import ProtocolsPage from './pages/ProtocolsPage';
 
 // Styled HomePage with flashcard
 function HomePage() {
@@ -82,6 +83,10 @@ function App() {
           <Link to="/scenarios" style={styles.navLink}>
             Scenarios
           </Link>
+          |
+          <Link to="/protocols" style={styles.navLink}>
+            Protocols
+          </Link>
         </nav>
 
         <Routes>
@@ -89,6 +94,7 @@ function App() {
           <Route path="/flashcards" element={<FlashcardsPage />} />
           <Route path="/quizzes" element={<QuizzesPage />} />
           <Route path="/scenarios" element={<ScenariosPage />} />
+          <Route path="/protocols" element={<ProtocolsPage />} />
         </Routes>
       </div>
     </Router>
