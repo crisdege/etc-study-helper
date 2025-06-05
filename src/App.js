@@ -1,15 +1,30 @@
 import React from 'react';
-import Flashcard from './components/Flashcards';
-import flashcards from './data/flashcards.json'; // adjust path if inside /data
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import FlashcardsPage from './pages/FlashcardsPage';
+import QuizzesPage from './pages/QuizzesPage';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Study Flashcards</h1>
-      {flashcards.map((card, index) => (
-        <Flashcard key={index} question={card.question} answer={card.answer} />
-      ))}
-    </div>
+    <Router>
+      <div className="App">
+        <nav
+          style={{
+            display: 'flex',
+            gap: '20px',
+            padding: '10px',
+            borderBottom: '1px solid #ccc',
+          }}
+        >
+          <Link to="/">Flashcards</Link>
+          <Link to="/quizzes">Quizzes</Link>
+        </nav>
+
+        <Routes>
+          <Route path="/" element={<FlashcardsPage />} />
+          <Route path="/quizzes" element={<QuizzesPage />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

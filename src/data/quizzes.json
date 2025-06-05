@@ -1,5 +1,12 @@
 [
   {
+    "question": "How many minutes do we try a land line that hanged up a 9-1-1 call?",
+    "choices": ["3 minutes", "1 minute", "5 minutes", "2 minutes"],
+    "answer": "We will try for 3 minutes.",
+    "category": "EMD"
+  },
+
+  {
     "question": "Abdominal Pains / Problems",
     "answer": "ABDO",
     "category": "EMD"

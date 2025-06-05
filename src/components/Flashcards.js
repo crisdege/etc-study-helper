@@ -1,19 +1,22 @@
 import React, { useState } from 'react';
+import './Flashcard.css'; // Add this line
 
 function Flashcard({ question, answer }) {
-  const [showAnswer, setShowAnswer] = useState(false);
+  const [flipped, setFlipped] = useState(false);
 
   return (
     <div
-      onClick={() => setShowAnswer(!showAnswer)}
-      style={{
-        border: '1px solid #ccc',
-        padding: '20px',
-        margin: '10px',
-        cursor: 'pointer',
-      }}
+      className={`flashcard ${flipped ? 'flipped' : ''}`}
+      onClick={() => setFlipped(!flipped)}
     >
-      <h3>{showAnswer ? answer : question}</h3>
+      <div className="flashcard-inner">
+        <div className="flashcard-front">
+          <p>{question}</p>
+        </div>
+        <div className="flashcard-back">
+          <p>{answer}</p>
+        </div>
+      </div>
     </div>
   );
 }
