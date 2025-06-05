@@ -1,0 +1,30 @@
+[
+  {
+    "question": "Standard 9-1-1 line greeting:",
+    "answer": "Orange County 9-1-1, what is the address of your emergency? (Repeat, unless it matches ALI.)"
+  },
+  {
+    "question": "What is the 2nd question in the 9-1-1 call process?",
+    "answer": "What's the phone number you are calling from? (Repeat, unless it matches ANI. Say VERIFIED if it matches.)"
+  },
+  {
+    "question": "What is the 3rd question in the 9-1-1 call process?",
+    "answer": "What's your name? 4. Tell me exactly what happened."
+  },
+  {
+    "question": "What is the 4th question in the 9-1-1 call process?",
+    "answer": "Tell me exactly what happened."
+  },
+  {
+    "question": "Who can you use the Aspirin tool on?",
+    "answer": "Patient is functionally alert, 16 years of age or older, no reported stroke symptoms, and not pregnant."
+  },
+  {
+    "question": "What are the 5 W's?",
+    "answer": "WHERE, WHEN, WHAT, WHO, WEAPONS"
+  },
+  {
+    "question": "Standard alarm / non-emergency / administrative line greeting:",
+    "answer": "Orange County Communications, this is [... YOUR NAME ...]"
+  }
+]

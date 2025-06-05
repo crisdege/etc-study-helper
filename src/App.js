@@ -37,28 +37,25 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import FlashcardsPage from './pages/FlashcardsPage';
 import QuizzesPage from './pages/QuizzesPage';
 import ScenariosPage from './pages/ScenariosPage';
+import rememberData from './data/remember.json';
+import Flashcard from './components/Flashcards';
 
 // Styled HomePage with flashcard
 function HomePage() {
-  const [showAnswer, setShowAnswer] = React.useState(false);
-
   return (
-    <div style={styles.container}>
-      <h2 style={styles.title}>Flashcard</h2>
-      <div style={styles.card}>
-        <p style={styles.question}>
-          <strong>Q:</strong> What is the 911 call process?
-        </p>
-        {showAnswer ? (
-          <p style={styles.answer}>
-            <strong>A:</strong> Orange County 911, what is the address of your
-            emergency?
-          </p>
-        ) : (
-          <button style={styles.button} onClick={() => setShowAnswer(true)}>
-            Show Answer
-          </button>
-        )}
+    <div>
+      <h1 style={{ textAlign: 'center' }}>Things to remember</h1>
+
+      <div
+        style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
+      >
+        {rememberData.map((card, index) => (
+          <Flashcard
+            key={index}
+            question={card.question}
+            answer={card.answer}
+          />
+        ))}
       </div>
     </div>
   );
@@ -134,8 +131,13 @@ const styles = {
     marginBottom: '20px',
   },
   answer: {
-    fontSize: '18px',
-    color: '#28a745',
+    backgroundColor: '#f9f9f9',
+    padding: '20px',
+    border: '1px solid #ccc',
+    borderRadius: '10px',
+    fontFamily: 'Arial, sans-serif',
+    lineHeight: '1.6',
+    marginTop: '20px',
   },
   button: {
     padding: '10px 20px',
