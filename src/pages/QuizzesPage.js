@@ -59,7 +59,7 @@ function QuizzesPage() {
   };
 
   return (
-    <div style={{ maxWidth: '800px', margin: '0 auto', padding: '2rem' }}>
+    <div>
       <h1 style={{ textAlign: 'center' }}>📋 Quiz</h1>
 
       {/* Category Buttons */}
@@ -101,7 +101,7 @@ function QuizzesPage() {
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(3, 1fr)',
+          gridTemplateColumns: 'repeat(4, 1fr)',
           gap: '20px',
           marginBottom: '30px',
         }}
@@ -149,8 +149,10 @@ function QuizzesPage() {
                 style={{
                   padding: '10px',
                   width: '100%',
+                  boxSizing: 'border-box',
                   borderRadius: '4px',
                   border: '1px solid #ccc',
+                  marginTop: '10px',
                 }}
               />
             )}
@@ -210,7 +212,7 @@ function QuizzesPage() {
             <strong>{questions.length}</strong>.
           </p>
 
-          <h3 style={{ marginTop: '30px' }}>📘 Summary:</h3>
+          {/* <h3 style={{ marginTop: '30px' }}>📘 Summary:</h3>
           <ul style={{ paddingLeft: '20px' }}>
             {questions.map((q, i) => (
               <li key={i} style={{ marginBottom: '20px' }}>
@@ -226,7 +228,7 @@ function QuizzesPage() {
                 </p>
               </li>
             ))}
-          </ul>
+          </ul> */}
 
           <div style={{ textAlign: 'center', marginTop: '30px' }}>
             <button

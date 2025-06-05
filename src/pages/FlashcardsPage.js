@@ -28,21 +28,30 @@ function FlashcardsPage() {
 
   return (
     <div>
-      <h1>Flashcards</h1>
+      <h1 style={{ textAlign: 'center' }}>Flashcards</h1>
 
-      <div style={{ marginBottom: '20px' }}>
+      {/* Category Buttons */}
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          flexWrap: 'wrap',
+          gap: '10px',
+          marginBottom: '30px',
+        }}
+      >
         {categories.map((cat) => (
           <button
             key={cat}
             onClick={() => setSelectedCategory(cat)}
             style={{
-              marginRight: '10px',
-              padding: '10px',
-              backgroundColor: selectedCategory === cat ? '#007bff' : '#e0e0e0',
-              color: selectedCategory === cat ? '#fff' : '#000',
-              border: 'none',
+              padding: '10px 20px',
+              backgroundColor: selectedCategory === cat ? '#007bff' : '#f0f0f0',
+              color: selectedCategory === cat ? '#fff' : '#333',
+              border: '1px solid #ccc',
               borderRadius: '5px',
               cursor: 'pointer',
+              fontWeight: 'bold',
             }}
           >
             {cat}
