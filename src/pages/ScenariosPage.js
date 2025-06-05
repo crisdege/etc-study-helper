@@ -93,7 +93,7 @@ function ScenariosPage() {
 
       {!isSubmitted && (
         <p style={{ textAlign: 'center', marginBottom: '2rem', color: '#555' }}>
-          Answer all questions, then submit.
+          Answer all questions with the appropriate nature code, then submit.
         </p>
       )}
 

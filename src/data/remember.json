@@ -26,5 +26,13 @@
   {
     "question": "Standard alarm / non-emergency / administrative line greeting:",
     "answer": "Orange County Communications, this is [... YOUR NAME ...]"
+  },
+  {
+    "question": "What is a DOMESTIC?",
+    "answer": "Man made structure e.g., pool, hot tub, bathtub"
+  },
+  {
+    "question": "What is a SPECIALIZED?",
+    "answer": "Natural setting or man-made structure not intended for domestic use e.g., lake, river, canal, water tank."
   }
 ]

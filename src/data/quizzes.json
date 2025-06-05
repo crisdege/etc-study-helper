@@ -5,7 +5,105 @@
     "answer": "3 minutes",
     "category": "OTHER"
   },
-
+  {
+    "question": "What is the standard 9-1-1 line greeting?",
+    "choices": [
+      "Orange County 9-1-1, what is your emergency?",
+      "Orange County 9-1-1, what is the address of your emergency? (Repeat, unless it matches ALI.)",
+      "What is the address of your emergency?",
+      "This is Orange County 9-1-1, how can I help you?"
+    ],
+    "answer": "Orange County 9-1-1, what is the address of your emergency? (Repeat, unless it matches ALI.)",
+    "category": "OTHER"
+  },
+  {
+    "question": "What is the 2nd question in the 9-1-1 call process?",
+    "choices": [
+      "What's your name?",
+      "What's the phone number you are calling from? (Repeat, unless it matches ANI. Say VERIFIED if it matches.)",
+      "Okay, tell me exactly what happened.",
+      "Where is your emergency?"
+    ],
+    "answer": "What's the phone number you are calling from? (Repeat, unless it matches ANI. Say VERIFIED if it matches.)",
+    "category": "OTHER"
+  },
+  {
+    "question": "What is the 3rd question in the 9-1-1 call process?",
+    "choices": [
+      "What is your location?",
+      "What's your name?",
+      "What is your emergency?",
+      "Can you describe what happened?"
+    ],
+    "answer": "What's your name?",
+    "category": "OTHER"
+  },
+  {
+    "question": "What is the 4th question in the 9-1-1 call process?",
+    "choices": [
+      "What's your name?",
+      "Okay, tell me exactly what happened.",
+      "What is your phone number?",
+      "Where are you?"
+    ],
+    "answer": "Okay, tell me exactly what happened.",
+    "category": "OTHER"
+  },
+  {
+    "question": "Who can you use the Aspirin tool on?",
+    "choices": [
+      "Anyone over 18 years old",
+      "Patient is functionally alert, 16 years of age or older, no reported stroke symptoms, and not pregnant.",
+      "Patients with chest pain over age 21",
+      "Any adult not allergic to aspirin"
+    ],
+    "answer": "Patient is functionally alert, 16 years of age or older, no reported stroke symptoms, and not pregnant.",
+    "category": "OTHER"
+  },
+  {
+    "question": "What are the 5 W's?",
+    "choices": [
+      "WHERE, WHO, WHY, WHAT, WHEN",
+      "WHEN, WHERE, WHAT, WHO, WEAPONS",
+      "WHERE, WHEN, WHAT, WHO, WEAPONS",
+      "WHAT, WHO, WHEN, WEAPONS, WHY"
+    ],
+    "answer": "WHERE, WHEN, WHAT, WHO, WEAPONS",
+    "category": "OTHER"
+  },
+  {
+    "question": "What is the standard alarm / non-emergency / administrative line greeting?",
+    "choices": [
+      "Orange County 9-1-1, what is your emergency?",
+      "Orange County Communications, this is [... YOUR NAME ...]",
+      "This is the non-emergency line, state your concern.",
+      "Orange County Services, how may I assist?"
+    ],
+    "answer": "Orange County Communications, this is [... YOUR NAME ...]",
+    "category": "OTHER"
+  },
+  {
+    "question": "What is a DOMESTIC?",
+    "choices": [
+      "Natural body of water",
+      "Water tank or canal",
+      "Man made structure e.g., pool, hot tub, bathtub",
+      "Any body of water used recreationally"
+    ],
+    "answer": "Man made structure e.g., pool, hot tub, bathtub",
+    "category": "OTHER"
+  },
+  {
+    "question": "What is a SPECIALIZED?",
+    "choices": [
+      "Private backyard pool",
+      "Natural setting or man-made structure not intended for domestic use e.g., lake, river, canal, water tank.",
+      "Bathtub or hot tub in home",
+      "Public swimming pool"
+    ],
+    "answer": "Natural setting or man-made structure not intended for domestic use e.g., lake, river, canal, water tank.",
+    "category": "OTHER"
+  },
   {
     "question": "Abdominal Pains / Problems",
     "answer": "ABDO",

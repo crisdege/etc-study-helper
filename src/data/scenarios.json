@@ -153,5 +153,230 @@
     "question": "My neighbor's dog just bit my child.",
     "answer": "ANIB",
     "category": "EMD"
+  },
+  {
+    "question": "This is Rhonda with RDU Flight Tower. We are monitoring an aircraft over the area of NC 57 and Schley Rd, and are indicating an emergency due to power loss.",
+    "answer": "AIRC",
+    "category": "EFD"
+  },
+  {
+    "question": "My stove wouldn't light this morning and I just came home and noticed that there is a strong odor of LP gas inside.",
+    "answer": "GASLEA",
+    "category": "EFD"
+  },
+  {
+    "question": "I just heard a loud explosion. I am pretty sure lightning struck my house. I don't see any fire or smell smoke.",
+    "answer": "LIGHTN",
+    "category": "EFD"
+  },
+  {
+    "question": "I live next to a junk yard. I'm not sure what's going on but there is an overpowering smell of diesel fuel coming from it.",
+    "answer": "FUELSP",
+    "category": "EFD"
+  },
+  {
+    "question": "Operator 622 with Security Central calling in a commercial smoke alarm.",
+    "answer": "ALARMFI",
+    "category": "EFD"
+  },
+  {
+    "question": "One of my workers is underground! He was working in a trench and it caved in on him.",
+    "answer": "CONFSP",
+    "category": "EFD"
+  },
+  {
+    "question": "The storm brought down a large oak tree and it fell on my neighbor's house. The roof is caved in.",
+    "answer": "CONFSP",
+    "category": "EFD"
+  },
+  {
+    "question": "One of my students in the lab spilled hydrogen sulfide out of a beaker all over the table.",
+    "answer": "HAZM",
+    "category": "EFD"
+  },
+  {
+    "question": "I am pulling a single wide mobile home down I-85. One of the tires caught fire setting the trailer on fire.",
+    "answer": "STRUCT",
+    "category": "EFD"
+  },
+  {
+    "question": "This is Ryan with Alamance 911. I need Efland Fire Department to respond with Mebane Fire for a residential fire alarm.",
+    "answer": "MUTF",
+    "category": "EFD"
+  },
+  {
+    "question": "My neighbor was burning in a fire pit and it has caught his entire yard on fire.",
+    "answer": "OUTFIR",
+    "category": "EFD"
+  },
+  {
+    "question": "I just drove by a house on Lebanon Rd. and it looked like smoke is coming from the 2nd story window.",
+    "answer": "STRUCT",
+    "category": "EFD"
+  },
+  {
+    "question": "One of my workers was digging holes for fence posts. I'm not sure how he did it, but he got his arm stuck in the auger.",
+    "answer": "ENTRAP",
+    "category": "EFD"
+  },
+  {
+    "question": "I smell smoke in my house.",
+    "answer": "STRUCT",
+    "category": "EFD"
+  },
+  {
+    "question": "There is a weird odor outside my house. It smells like rubber being made.",
+    "answer": "ODORIN",
+    "category": "EFD"
+  },
+  {
+    "question": "I was driving down US 70 and all of a sudden my car just started smoking under the hood.",
+    "answer": "VEHI",
+    "category": "EFD"
+  },
+  {
+    "question": "Help me! The roadway was flooded and I thought I could make it across. My car stalled and now my vehicle is filling with water.",
+    "answer": "WATERS",
+    "category": "EFD"
+  },
+  {
+    "question": "There is a suitcase sitting in front of the police department. It has little wires hanging out of it.",
+    "answer": "SUSPAC",
+    "category": "EPD"
+  },
+  {
+    "question": "I just saw two kids take off across the parking lot. The dumpster is on fire. I think they set it on fire.",
+    "answer": "OUTFIR",
+    "category": "EFD"
+  },
+  {
+    "question": "This is Terry with Norfolk Southern Railroad. We have a report from our conductor that his train jumped off the tracks and one of the boxcars flipped over.",
+    "answer": "TRAINC",
+    "category": "EFD"
+  },
+  {
+    "question": "My appartment is flooding. It's coming from the apartment above me!",
+    "answer": "FIASST",
+    "category": "EFD"
+  },
+  {
+    "question": "I just heard an explosion that shook my house.",
+    "answer": "EXPLOS",
+    "category": "EFD"
+  },
+  {
+    "question": "My smoke alarm is going off.",
+    "answer": "ALARMFI",
+    "category": "EFD"
+  },
+  {
+    "question": "There is a guy out front of the hospital that was cleaning windows. His scaffold gave way and he's hanging by a rope and screaming for help.",
+    "answer": "HIANGL",
+    "category": "EFD"
+  },
+  {
+    "question": "This is Kevin with Durham 911. We have a call for Eno Fire Department in their district at Bull City Radiator. We have received reports from several callers that it is on fire.",
+    "answer": "STRUCT",
+    "category": "EFD"
+  },
+  {
+    "question": "I don't know what happened but the woods behind my house are on fire!",
+    "answer": "OUTFIR",
+    "category": "EFD"
+  },
+  {
+    "question": "There is heavy smoke across the roadway. I don't know where it's coming from.",
+    "answer": "SMOINV",
+    "category": "EFD"
+  },
+  {
+    "question": "My oven is on fire!",
+    "answer": "STRUCT",
+    "category": "EFD"
+  },
+  {
+    "question": "We just received a call here at the bank from some crazy lady saying she was going to blow the building up because we charged her overdraft fees.",
+    "answer": "BOMB",
+    "category": "EPD"
+  },
+  {
+    "question": "I drive for Sheetz and fill their gas pump tanks. I just discovered fuel is leaking from my tanker trailer and going down a storm drain.",
+    "answer": "FUELSP",
+    "category": "EFD"
+  },
+  {
+    "question": "I have a worker who is sort of a larger guy. He was working down in the sewer and had to go down the man hole to get ino it. Well, he got down in it but due to his size, he can't get out.",
+    "answer": "CONFSP",
+    "category": "EFD"
+  },
+  {
+    "question": "My wife and I were sitting outside and a helicopter just went down in the woods! We see a lot of smoke coming from the area.",
+    "answer": "AIRC",
+    "category": "EFD"
+  },
+  {
+    "question": "I was just in an accident. I'm OK but I rolled my truck.",
+    "answer": "MVCFI",
+    "category": "EFD"
+  },
+  {
+    "question": "Help! I am in the elevator at UNC and I felt the elevator drop and now it won't move an I'm stuck inside.",
+    "answer": "ELEVTR",
+    "category": "EFD"
+  },
+  {
+    "question": "Ther is a transformer on a power pole that's on fire.",
+    "answer": "ELEHAZ",
+    "category": "EFD"
+  },
+  {
+    "question": "My son was playing with matches and caught the curtains on fire. I tried to put it out but the flames were so fast!",
+    "answer": "STRUCT",
+    "category": "EFD"
+  },
+  {
+    "question": "I am on Lake Orange. My boat is taking on water and I don't think I can make it back to shore.",
+    "answer": "WATERC",
+    "category": "EFD"
+  },
+  {
+    "question": "A train just passed by Mt. Willing Rd and I saw one of the train cars had a small fire down by the wheel.",
+    "answer": "TRAINF",
+    "category": "EFD"
+  },
+  {
+    "question": "My batteries are on fire in my Tesla!",
+    "answer": "VEHI",
+    "category": "EFD"
+  },
+  {
+    "question": "I was out walking my dog and I smell something in the are that smells like rotten eggs.",
+    "answer": "GASLEA",
+    "category": "EFD"
+  },
+  {
+    "question": "The power line going to my house is on fire and it's catching the roof on fire.",
+    "answer": "STRUCT",
+    "category": "EFD"
+  },
+  {
+    "question": "I just saw a plane fly over my house. It was sputtering and smoke was coming off one of the engines.",
+    "answer": "AIRC",
+    "category": "EFD"
+  },
+  {
+    "question": "I just got home and there is smoke all in my house.",
+    "answer": "STRUCT",
+    "category": "EFD"
+  },
+  {
+    "question": "My neighbor has a bonfire lit at his house and that is illegal per the city ordinance.",
+    "answer": "OUTFIR",
+    "category": "EFD"
+  },
+  {
+    "question": "Lightning just struck a tree in my wood line. It has caught a good size of the woods on fire now.",
+    "answer": "OUTFIR",
+    "category": "EFD"
   }
 ]
