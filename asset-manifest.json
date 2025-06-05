@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/etc-study-helper/static/css/main.9ca0ea68.css",
-    "main.js": "/etc-study-helper/static/js/main.a744d0f0.js",
+    "main.js": "/etc-study-helper/static/js/main.f33e3952.js",
     "static/js/453.52f69d73.chunk.js": "/etc-study-helper/static/js/453.52f69d73.chunk.js",
     "index.html": "/etc-study-helper/index.html",
     "main.9ca0ea68.css.map": "/etc-study-helper/static/css/main.9ca0ea68.css.map",
-    "main.a744d0f0.js.map": "/etc-study-helper/static/js/main.a744d0f0.js.map",
+    "main.f33e3952.js.map": "/etc-study-helper/static/js/main.f33e3952.js.map",
     "453.52f69d73.chunk.js.map": "/etc-study-helper/static/js/453.52f69d73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ca0ea68.css",
-    "static/js/main.a744d0f0.js"
+    "static/js/main.f33e3952.js"
   ]
 }
