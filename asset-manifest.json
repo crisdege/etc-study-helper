@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/etc-study-helper/static/css/main.9ca0ea68.css",
+    "main.js": "/etc-study-helper/static/js/main.19f1927a.js",
+    "index.html": "/etc-study-helper/index.html",
+    "main.9ca0ea68.css.map": "/etc-study-helper/static/css/main.9ca0ea68.css.map",
+    "main.19f1927a.js.map": "/etc-study-helper/static/js/main.19f1927a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ca0ea68.css",
+    "static/js/main.19f1927a.js"
+  ]
+}
