@@ -155,5 +155,145 @@
     "question": "Transfer / Interfacility / Palliative Care",
     "answer": "TIPC",
     "category": "EMD"
+  },
+  {
+    "question": "Aircraft Emergency",
+    "answer": "AIRC",
+    "category": "EFD"
+  },
+  {
+    "question": "Alarms",
+    "answer": "ALARFI",
+    "category": "EFD"
+  },
+  {
+    "question": "Citizen Assist / Service Call",
+    "answer": "FIASST",
+    "category": "EFD"
+  },
+  {
+    "question": "Confined Space / Structure Collapse",
+    "answer": "CONFSP",
+    "category": "EFD"
+  },
+  {
+    "question": "Electrical Hazard",
+    "answer": "ELEHAZ",
+    "category": "EFD"
+  },
+  {
+    "question": "Elevator / Escalator Rescue",
+    "answer": "ELEVATR",
+    "category": "EFD"
+  },
+  {
+    "question": "Explosion",
+    "answer": "EXPLOS",
+    "category": "EFD"
+  },
+  {
+    "question": "Extrication / Entrapped (Machinery, Vehicle - Non MVC",
+    "answer": "ENTRAP",
+    "category": "EFD"
+  },
+  {
+    "question": "Fuel Spill / Fuel Odor",
+    "answer": "FUELSP",
+    "category": "EFD"
+  },
+  {
+    "question": "Gas Leak / Gas Odor (Natural or LP Gas)",
+    "answer": "GASLEA",
+    "category": "EFD"
+  },
+  {
+    "question": "HAZMAT",
+    "answer": "HAZM",
+    "category": "EFD"
+  },
+  {
+    "question": "High Angle Rescue (Above or Below Grade)",
+    "answer": "HIANGL",
+    "category": "EFD"
+  },
+  {
+    "question": "Lightning Strike (Investigation)",
+    "answer": "LIGHTN",
+    "category": "EFD"
+  },
+  {
+    "question": "Marine Fire / Boat Fire",
+    "answer": "BOATFI",
+    "category": "EFD"
+  },
+  {
+    "question": "Mutual Aid / Assist Outside Agency",
+    "answer": "MUTF",
+    "category": "EFD"
+  },
+  {
+    "question": "Odor (Strange / Unknown)",
+    "answer": "ODORIN",
+    "category": "EFD"
+  },
+  {
+    "question": "Outside Fire",
+    "answer": "OUTFIR",
+    "category": "EFD"
+  },
+  {
+    "question": "Smoke Investigation (Outside)",
+    "answer": "SMOINV",
+    "category": "EFD"
+  },
+  {
+    "question": "Structure Fire",
+    "answer": "STRUCT",
+    "category": "EFD"
+  },
+  {
+    "question": "Train and Rail Collision / Derailment",
+    "answer": "TRAINC",
+    "category": "EFD"
+  },
+  {
+    "question": "Vehicle Fire",
+    "answer": "VEHI",
+    "category": "EFD"
+  },
+  {
+    "question": "Water / Ice / Mud Rescue",
+    "answer": "WATRES",
+    "category": "EFD"
+  },
+  {
+    "question": "Watercraft in Distress / Collision",
+    "answer": "WATERC",
+    "category": "EFD"
+  },
+  {
+    "question": "Train and Rail Fire",
+    "answer": "TRAINF",
+    "category": "EFD"
+  },
+  {
+    "question": "Motor Vehicle Collision",
+    "answer": "MVCFI",
+    "category": "EFD"
+  },
+  {
+    "question": "Outside Tank Fire (Use 67)",
+    "answer": "OUTFIR",
+    "category": "EFD"
+  },
+  {
+    "question": "Sinking Vehicle / Vehicle in Floodwater",
+    "answer": "WATRES",
+    "category": "EFD"
+  },
+  {
+    "question": "Vegetation / Wildland / Brush / Grass Fire (Use 67)",
+    "answer": "OUTFIR",
+    "category": "EFD"
   }
 ]

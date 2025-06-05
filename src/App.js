@@ -25,10 +25,6 @@ function App() {
           <Route path="/quizzes" element={<QuizzesPage />} />
         </Routes>
       </div>
-      <Flashcard
-        question={'What is the 9-1-1 call answer process?'}
-        answer={'Orange county 911'}
-      />
     </Router>
   );
 }
