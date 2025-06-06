@@ -3,5 +3,25 @@
     "question": "Protocol 3 - Animal Bites / Attacks",
     "answer": "Used when the complaint description involves an Animal Bite / Attack with injury.",
     "category": "EMD"
+  },
+  {
+    "question": "Protocol 4 - Assault / Sexual Assault / Stun Gun",
+    "answer": "When the complaint description involves an assault / sexual assault / stabbing / shooting / witnessed homicide, the call will initially be processed using Protocol 106 - Assault / Sexual Assault / Shooting / Stabbing.",
+    "category": "EMD"
+  },
+  {
+    "question": "Protocol 7 - Burns (Scalds) / Explosion (Blast)",
+    "answer": "Events where the complaint description involves burns from a fire or injuries from an explosion will initially be processed using the appropriate FPDS protocol.",
+    "category": "EMD"
+  },
+  {
+    "question": "Protocol 8 - Carbon Monoxide / Inhalation / HAZMAT / CBRN",
+    "answer": "Used when the complaint description involves a Carbon Monoxide poisoning. Events with patients/victims due to gas leak, fuel spill or HAZMAT, will initially be handled using FPDS protocols.",
+    "category": "EMD"
+  },
+  {
+    "question": "Protocol 9 - Cardiac or Respiratory Arrest / Deathe",
+    "answer": "The obvious / expected death criteria are ONLY those listed in the protocol that have been approved by the Medical Director. The caller must describe / indicate one of the approved criteria exists.",
+    "category": "EMD"
   }
 ]
