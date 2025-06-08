@@ -28,7 +28,7 @@ function FlashcardsPage() {
 
   return (
     <div>
-      <h1 style={{ textAlign: 'center' }}>Flashcards</h1>
+      <h1 style={{ textAlign: 'center' }}>Nature Codes Flashcards</h1>
 
       {/* Category Buttons */}
       <div

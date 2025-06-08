@@ -34,5 +34,37 @@
   {
     "question": "What is a SPECIALIZED?",
     "answer": "Natural setting or man-made structure not intended for domestic use e.g., lake, river, canal, water tank."
+  },
+  {
+    "question": "When would you use the active assailant protocol vs the shooting / stabbing protocol.",
+    "answer": "When the assailant has unrestricted access to victims."
+  },
+  {
+    "question": "What protocol would you use when a vehicle is on fire in a free standing garage?",
+    "answer": "Vehicle fire."
+  },
+  {
+    "question": "What protocol would you use when a vehicle is on fire in a home garage, or garage attached to a building?",
+    "answer": "Structure fire."
+  },
+  {
+    "question": "What protocol should a barking dog be handled on?",
+    "answer": "Protocol 105 - Animal."
+  },
+  {
+    "question": "What is considered 'multiple patients' for a medical event?",
+    "answer": "3 or more patients."
+  },
+  {
+    "question": "What do you do when a call for service is requested (CFS)?",
+    "answer": "Select 'New Event' from CAD."
+  },
+  {
+    "question": "What are the 9-1-1 call answering rules?",
+    "answer": "9-1-1 lines will be answered first before any other line, will be answered within 3 rings, and calltakers will refrain from putting the call on hold until enough pertinent info has been obtained."
+  },
+  {
+    "question": "How are the different MVC (motor vehicle colision) nature codes used?",
+    "answer": "When patient with injury present, use the EMD MVCPI nature code. When no injury, use the EPD MVCLE. When hazardous materials reported, also include the EFD MVCFI."
   }
 ]
