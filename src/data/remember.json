@@ -66,5 +66,9 @@
   {
     "question": "How are the different MVC (motor vehicle colision) nature codes used?",
     "answer": "When patient with injury present, use the EMD MVCPI nature code. When no injury, use the EPD MVCLE. When hazardous materials reported, also include the EFD MVCFI."
+  },
+  {
+    "question": "Priority Symptoms",
+    "answer": "Abnormal breathing | Chest pain / discomfort (any) | Decreased level of consciousness | Serious hemorrhage."
   }
 ]
