@@ -70,5 +70,9 @@
   {
     "question": "Priority Symptoms",
     "answer": "Abnormal breathing | Chest pain / discomfort (any) | Decreased level of consciousness | Serious hemorrhage."
+  },
+  {
+    "question": "What is the EPD disconnect?",
+    "answer": "Urgent dissconect."
   }
 ]
