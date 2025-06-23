@@ -61,17 +61,6 @@
     "category": "OTHER"
   },
   {
-    "question": "What are the 5 W's?",
-    "choices": [
-      "WHERE, WHO, WHY, WHAT, WHEN",
-      "WHEN, WHERE, WHAT, WHO, WEAPONS",
-      "WHERE, WHEN, WHAT, WHO, WEAPONS",
-      "WHAT, WHO, WHEN, WEAPONS, WHY"
-    ],
-    "answer": "WHERE, WHEN, WHAT, WHO, WEAPONS",
-    "category": "OTHER"
-  },
-  {
     "question": "What is the standard alarm / non-emergency / administrative line greeting?",
     "choices": [
       "Orange County 9-1-1, what is your emergency?",

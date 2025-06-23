@@ -109,7 +109,7 @@ function ProtocolsPage() {
 
   return (
     <div style={{ padding: '20px' }}>
-      <h1 style={{ textAlign: 'center' }}>Protocols</h1>
+      <h1 style={{ textAlign: 'center' }}>Protocol Rules</h1>
 
       {/* Category Buttons */}
       <div
