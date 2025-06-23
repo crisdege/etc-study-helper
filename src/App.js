@@ -85,7 +85,7 @@ function App() {
           </Link>
           |
           <Link to="/protocols" style={styles.navLink}>
-            Protocols
+            Protocol Rules
           </Link>
         </nav>
 

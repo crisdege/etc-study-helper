@@ -20,8 +20,13 @@
     "category": "EMD"
   },
   {
-    "question": "Protocol 9 - Cardiac or Respiratory Arrest / Deathe",
+    "question": "Protocol 9 - Cardiac or Respiratory Arrest / Death",
     "answer": "The obvious / expected death criteria are ONLY those listed in the protocol that have been approved by the Medical Director. The caller must describe / indicate one of the approved criteria exists.",
+    "category": "EMD"
+  },
+  {
+    "question": "Protocol 33 - Transfer/Interfacility/Paliative Care",
+    "answer": "Used in any facility in which a medical staff directly evaluated the patient, except when the patient is chocking, having cardiac or respiratory arrest, or is unconcious",
     "category": "EMD"
   }
 ]
