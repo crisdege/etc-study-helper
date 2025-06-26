@@ -1,73 +1,28 @@
-// import React from 'react';
-// import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-// import FlashcardsPage from './pages/FlashcardsPage';
-// import QuizzesPage from './pages/QuizzesPage';
-// import ScenariosPage from './pages/ScenariosPage';
-
-// function App() {
-//   return (
-//     <Router>
-//       <div className="App">
-//         <nav
-//           style={{
-//             display: 'flex',
-//             gap: '20px',
-//             padding: '10px',
-//             borderBottom: '1px solid #ccc',
-//           }}
-//         >
-//           <Link to="/">Flashcards</Link>
-//           <Link to="/quizzes">Quizzes</Link>
-//           <Link to="/scenarios">Scenarios</Link>
-//         </nav>
-
-//         <Routes>
-//           <Route path="/" element={<FlashcardsPage />} />
-//           <Route path="/quizzes" element={<QuizzesPage />} />
-//           <Route path="/scenarios" element={<ScenariosPage />} />
-//         </Routes>
-//       </div>
-//     </Router>
-//   );
-// }
-
-// export default App;
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from 'react-router-dom';
 import FlashcardsPage from './pages/FlashcardsPage';
 import QuizzesPage from './pages/QuizzesPage';
 import ScenariosPage from './pages/ScenariosPage';
-import rememberData from './data/remember.json';
-import Flashcard from './components/Flashcards';
 import ProtocolsPage from './pages/ProtocolsPage';
-
-// Styled HomePage with flashcard
-function HomePage() {
-  return (
-    <div>
-      <h1 style={{ textAlign: 'center' }}>Might want to remember</h1>
-
-      <div
-        style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
-      >
-        {rememberData.map((card, index) => (
-          <Flashcard
-            key={index}
-            question={card.question}
-            answer={card.answer}
-          />
-        ))}
-      </div>
-    </div>
-  );
-}
+import LandingPage from './pages/LandingPage';
+import NatureCodesPage from './pages/NatureCodesPage';
+import RadioLandingPage from './pages/RadioPage';
+import LandingNavBar from './pages/LandingNavBar';
+import NatureCodesNavBar from './pages/NatureCodesNavBar';
+import CallsProcessPage from './pages/CallsProcessPage';
 
 // Main App with navigation and routes
 function App() {
   return (
     <Router>
       <div className="App">
-        <nav style={styles.nav}>
+        <LandingNavBar />
+        {/* <nav style={styles.nav}>
           <Link to="/" style={styles.navLink}>
             Remember
           </Link>
@@ -87,14 +42,30 @@ function App() {
           <Link to="/protocols" style={styles.navLink}>
             Protocol Rules
           </Link>
-        </nav>
+        </nav> */}
 
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/flashcards" element={<FlashcardsPage />} />
-          <Route path="/quizzes" element={<QuizzesPage />} />
-          <Route path="/scenarios" element={<ScenariosPage />} />
-          <Route path="/protocols" element={<ProtocolsPage />} />
+          <Route path="/nature" element={<NatureCodesNavBar />}>
+            <Route index element={<Navigate to="calls" replace />} />
+            <Route path="calls" element={<CallsProcessPage />} />
+            <Route path="flashcards" element={<FlashcardsPage />} />
+            <Route path="quizzes" element={<QuizzesPage />} />
+            <Route path="scenarios" element={<ScenariosPage />} />
+            <Route path="protocols" element={<ProtocolsPage />} />
+          </Route>
+          {/* <Route path="/nature" element={<NatureCodesNavBar />} /> */}
+          <Route path="/etc-study-helper" element={<LandingPage />} />
+          {/* <Route path="nature/flashcards" element={<FlashcardsPage />} /> */}
+          {/* <Route path="nature/quizzes" element={<QuizzesPage />} /> */}
+          {/* <Route path="nature/scenarios" element={<ScenariosPage />} /> */}
+          {/* <Route path="nature/protocols" element={<ProtocolsPage />} /> */}
+          <Route path="/nature-codes" element={<NatureCodesPage />} />
+          <Route path="/radio" element={<RadioLandingPage />} />
+          {/* <Route path="/nature/:section" element={<NatureCodesPage />} />
+          <Route
+            path="/nature"
+            element={<Navigate to="/nature/remember" replace />}
+          /> */}
         </Routes>
       </div>
     </Router>
